@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Geass - Fan page</title>
+    <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
     <section class="banner" id="home">
         <div class="textBx" id="textBx1">
             <h2>Code Geass <br> <span> Lelouch de la Rebelión </span></h2>
-            <h3>Desarrollador y hacker ético. Bienvenido a Dakrfox</h3>
+            <h3>Lelouch Lamperouge</h3>
         </div>
   
     </section>
@@ -31,5 +32,21 @@
             Icons made by Freepik from <a style="text-decoration:none;color:#fff;"
                 href="https://flaticon.com">www.flaticon.com </a> </p>
     </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+
+        }
+
+    </script>
 </body>
 </html>
