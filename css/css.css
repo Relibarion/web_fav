@@ -103,3 +103,54 @@ header ul li a {
 header.sticky ul li a {
     color: #111;
 }
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.contentBx {
+    padding-right: 30px;
+}
+
+.contentBx h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.w50 {
+    min-width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading h2 {
+    
+    font-weight: 600;
+    font-size: 30px;
+}
+.sip 
+{
+    margin-top: 50px;
+}
+.pj
+{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+}
+
+.pj img {
+    width: 100%;
+    height: 100vh;
+}
